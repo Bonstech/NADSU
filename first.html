@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #man{
+            border-radius: 20px;text-align: center;
+        }
+        #btn{
+            background-color: blue;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        button:hover {
+            color:white;
+        }
+        p{
+            margin-top: 30px;
+        }
+        div{
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="border-style: solid; width: 200px; text-align: center;margin-left: 40%;margin-top: 100px;
+    border-radius: 20px;">
+    
+   <h1>Form</h1>
+   <form>
+    
+    <p>
+    <label>FirstName</label><br>
+    <input type="text" placeholder="FirstName" id="man">
+</p>
+<p> 
+    <label>LastName</label><br>
+    <input type="text" placeholder="LastName" id="man">
+</p>
+<p>
+    <label>Email</label><br>
+    <input type="text" placeholder="Email" id="man">
+</p>
+<p>
+    <label>Hometown</label><br>
+    <input type="text" placeholder="Hometown" id="man">
+</p>
+<p>
+    <label>Phone</label><br>
+    <input type="text" placeholder="Phone" id="man">
+</p>
+<p>
+    <button type="button" id="btn" onclick="document.getElementById('btn').innerHTML='Done'">Submit</button>
+</p>
+   </form>
+</div>
+<script>
+    window.prompt("Please confirm age")
+</script>
+</body>
+</html>
