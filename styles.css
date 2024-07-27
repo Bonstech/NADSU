@@ -6,6 +6,7 @@ body{
     overflow-x: hidden;
     background-color: #a5a0a0;
     color: #fff;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 }
 header,footer{
