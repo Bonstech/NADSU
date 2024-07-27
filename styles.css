@@ -6,14 +6,14 @@ body{
     overflow-x: hidden;
     background-color: #a5a0a0;
     color: #fff;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
 }
 header,footer{
     background-color:#2d2627;
     color:white;
     padding: 5px;
     text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
 }
 main{
     align-items: center;
