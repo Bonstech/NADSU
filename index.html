@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NADSU-UCC</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        img{
+    
+    border-radius: 110px;
+    margin: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div>
+            <img src="logo1.jpg" alt="Logo" height="40px" width="40px">
+            <h1>NADSU-UCC LOCAL<p id="slow"><i>Knowledge is Development</i></p></h1><br>
+        
+            <ul class="nav-links">
+                <button><a href="#About">About</a></button>
+                <button><a href="Gallery.html">Gallery</a></button>
+                <button><a href="https://forms.gle/KSYX7fCbwCVptBK16">Suggestions</a></button>
+            </ul>
+            <div id="showDate"></div>
+        </div>
+        
+    </nav>
+    </header>
+    <main>
+        <section>
+            <p>
+            <img src="patron.jpg" alt="Patron" height="200px" width="200px"><br>
+            Patron</p><br><br>
+            <h2><a href="work.html">2024/2025 EXECUTIVE BOARD</a></h2>
+            <div class="slider">
+                <div class="slide">
+                <p>
+                    <b>President</b>
+                    <img src="newprez.png" alt="President" height="200px" width="200px"><br>
+                </p>
+                <p>
+                    <b>Vice President</b>
+                    <img src="f2.jpg" alt="Vice President" height="200px" width="200px"><br>
+                </p>
+                <p>
+                    <b>Secretary</b>
+                    <img src="patron.jpg" alt="Secretary" height="200px" width="200px"><br> 
+                </p>
+                <p>
+                    <b>Financial Secretary</b>
+                    <img src="f2.jpg" alt="Financial Secretary" height="200px" width="200px"><br>
+                </p>
+                <p>
+                    <b>Organizer</b>
+                    <img src="organizer.jpg" alt="Organizer" height="200px" width="200px"><br>
+                </p>
+            </div>
+           <div class="slide">
+                <p>
+                    <b>President</b>
+                    <img src="newprez.png" alt="President" height="200px" width="200px"><br>
+                </p>
+                <p>
+                    <b>Vice President</b>
+                    <img src="f2.jpg" alt="Vice President" height="200px" width="200px"><br>
+                </p>
+                <p>
+                    <b>Secretary</b>
+                    <img src="p1.jpg" alt="Secretary" height="200px" width="200px"><br> 
+                </p>
+                <p>
+                    <b>Financial Secretary</b>
+                    <img src="f2.jpg" alt="Financial Secretary" height="200px" width="200px"><br>
+                </p>
+                <p>
+                    <b>Organizer</b>
+                    <img src="organizer.jpg" alt="Organizer" height="200px" width="200px"><br>
+                </p>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>  
+        <p>&copy;2024 [NADSU-UCC LOCAL]</p>
+    
+    </footer>
+    <script>
+        window.alert("WELCOME TO NADSU UCC OFFICIAL WEBSITE\nYou are reminded to fullfil your financial obligation\n as a member of NADSU-UCC LOCAL\n[Dues: GHC10 per semester & Welfare: GHC5 yearly].\nThank You")
+   
+    // Get the current date and time
+const currentDate = new Date();
+
+// Extract components
+const day = currentDate.getDate();
+const month = currentDate.getMonth() + 1; // Months are zero-based
+const year = currentDate.getFullYear();
+const hours = currentDate.getHours();
+const minutes = currentDate.getMinutes();
+
+// Display the formatted date and time
+const formattedDateTime = `${day}.${month}.${year} ${hours}:${minutes}`;
+document.getElementById('showDate').innerHTML = formattedDateTime;
+
+    </script>
+</body>
+</html>

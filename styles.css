@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #a5a0a0;
+    color: #fff;
+
+}
+header,footer{
+    background-color:#2d2627;
+    color:white;
+    padding: 5px;
+    text-align: center;
+}
+main{
+    align-items: center;
+    padding: 20px;
+}
+#slow{
+    font-size: 7px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    color: #a5a0a0;
+}
+#showDate{
+    color:#a5a0a0;
+    font-size: 9px;
+}
+
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(47, 228, 47);
+}
+h1{
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 23px;
+}
+ 
+div{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+ div ul button{
+    display: inline;
+    margin: 10px;
+    border-radius: 20px;
+    height: 25px;
+    width: 40;
+    border-color: rgb(177, 220, 19)
+    ;
+    background-color:#a5a0a0 ;
+}
+button:hover{
+    background-color: rgb(12, 245, 63);
+    color: rgb(169, 14, 14);
+    cursor: pointer;
+}
+button:active{
+    color: rgb(255, 111, 0);
+}
+@keyframes slid{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.slide{
+    animation: 30s slid infinite linear;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+
+}
+.slider:hover .slide{
+animation-play-state: paused;
+cursor: pointer;
+}
+.slider::before, .slider::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+    background: linear-gradient(to left,rgba(255,255,255,0),#a5a0a0);
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links {
+    list-style: none;
+    display: inline;
+    padding-left: 160px;
+    padding-top: 15px;
+    list-style: none;
+    display: inline;
+}
+
+.nav-links li {
+    margin: 0 7px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+#showdate{
+    display: inline;
+    margin: 50px;
+    text-align: center;
+}
+#cont{
+    padding-left: auto;
+    display: block;
+    text-align: center;
+}
